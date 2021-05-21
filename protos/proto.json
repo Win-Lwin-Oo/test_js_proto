@@ -1,0 +1,34 @@
+{
+  "nested": {
+    "Person": {
+      "nested": {
+        "Person": {
+          "oneofs": {
+            "_email": {
+              "oneof": [
+                "email"
+              ]
+            }
+          },
+          "fields": {
+            "id": {
+              "type": "int32",
+              "id": 1
+            },
+            "name": {
+              "type": "string",
+              "id": 2
+            },
+            "email": {
+              "type": "string",
+              "id": 3,
+              "options": {
+                "proto3_optional": true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
