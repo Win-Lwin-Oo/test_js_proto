@@ -1,5 +1,5 @@
 # test_js_proto
-This repo is show how to generate protobuf in js :)
+This repo shows how to generate protobuf in js :)
 
 ## Script
 There are two types of scripts. They are the same.
